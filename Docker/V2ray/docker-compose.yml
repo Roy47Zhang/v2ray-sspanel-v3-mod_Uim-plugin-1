@@ -2,7 +2,7 @@ version: '2'
 
 services:
  v2ray:
-    image: Roy47Zhang/v2ray_v3:go_pay
+    image: rico93/v2ray_v3:go_pay
     restart: always
     network_mode: "host"
     environment:
